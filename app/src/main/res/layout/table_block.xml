@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/table"
+    android:orientation="vertical"
+    android:layout_width="370dp"
+    android:layout_height="140dp"
+    android:paddingTop="10dp"
+    android:layout_gravity="center_horizontal">
+
+    <View
+        android:layout_width="370dp"
+        android:layout_height="1dp"
+        android:background="@color/cardview_dark_background"/>
+
+    <LinearLayout
+        android:layout_width="370dp"
+        android:layout_height="30dp"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="@color/cardview_dark_background" />
+
+        <TextView
+            android:layout_width="36dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:text="" />
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="@color/cardview_dark_background" />
+
+        <TextView
+            android:layout_width="45dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:text="Sun" />
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="@color/cardview_dark_background" />
+
+        <TextView
+            android:layout_width="45dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:text="Mon" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="@color/cardview_dark_background" />
+
+        <TextView
+            android:layout_width="45dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:text="Tue" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="@color/cardview_dark_background" />
+
+        <TextView
+            android:layout_width="45dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:text="Wed" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="@color/cardview_dark_background" />
+
+        <TextView
+            android:layout_width="45dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:text="Thu" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="@color/cardview_dark_background" />
+
+        <TextView
+            android:layout_width="45dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:text="Fri" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="@color/cardview_dark_background" />
+
+        <TextView
+            android:layout_width="45dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:text="Sat" />
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="@color/cardview_dark_background" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="370dp"
+        android:layout_height="1dp"
+        android:background="@color/cardview_dark_background"/>
+
+
+    <LinearLayout
+        android:layout_width="370dp"
+        android:layout_height="30dp"
+        android:orientation="horizontal">
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="@color/cardview_dark_background" />
+
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:src="@drawable/morning"/>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="@color/cardview_dark_background" />
+
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="45dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:text="" />
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="@color/cardview_dark_background" />
+
+        <TextView
+            android:id="@+id/t4"
+            android:layout_width="45dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:text="" />
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="@color/cardview_dark_background" />
+
+        <TextView
+            android:id="@+id/t7"
+            android:layout_width="45dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:text="" />
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="@color/cardview_dark_background" />
+
+        <TextView
+            android:id="@+id/t10"
+            android:layout_width="45dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:text="" />
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="@color/cardview_dark_background" />
+
+        <TextView
+            android:id="@+id/t13"
+            android:layout_width="45dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:text="" />
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="@color/cardview_dark_background" />
+
+        <TextView
+            android:id="@+id/t16"
+            android:layout_width="45dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:text="" />
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="@color/cardview_dark_background" />
+
+        <TextView
+            android:id="@+id/t19"
+            android:layout_width="45dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:text="" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="@color/cardview_dark_background" />
+
+    </LinearLayout>
+    <View
+        android:layout_width="370dp"
+        android:layout_height="1dp"
+        android:background="@color/cardview_dark_background"/>
+
+    <LinearLayout
+        android:layout_width="370dp"
+        android:layout_height="30dp"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="@color/cardview_dark_background" />
+
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:src="@drawable/noon"/>
+
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="@color/cardview_dark_background" />
+
+        <TextView
+            android:id="@+id/t2"
+            android:layout_width="45dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:text="" />
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="@color/cardview_dark_background" />
+
+        <TextView
+            android:id="@+id/t5"
+            android:layout_width="45dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:text="" />
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="@color/cardview_dark_background" />
+
+        <TextView
+            android:id="@+id/t8"
+            android:layout_width="45dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:text="" />
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="@color/cardview_dark_background" />
+
+        <TextView
+            android:id="@+id/t11"
+            android:layout_width="45dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:text="" />
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="@color/cardview_dark_background" />
+
+        <TextView
+            android:id="@+id/t14"
+            android:layout_width="45dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:text="" />
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="@color/cardview_dark_background" />
+
+        <TextView
+            android:id="@+id/t17"
+            android:layout_width="45dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:text="" />
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="@color/cardview_dark_background" />
+
+        <TextView
+            android:id="@+id/t20"
+            android:layout_width="45dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:text="" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="@color/cardview_dark_background" />
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="370dp"
+        android:layout_height="1dp"
+        android:background="@color/cardview_dark_background"/>
+
+    <LinearLayout
+        android:layout_width="370dp"
+        android:layout_height="30dp"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="@color/cardview_dark_background" />
+
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:src="@drawable/evening"/>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="@color/cardview_dark_background" />
+
+        <TextView
+            android:id="@+id/t3"
+            android:layout_width="45dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:text="" />
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="@color/cardview_dark_background" />
+
+        <TextView
+            android:id="@+id/t6"
+            android:layout_width="45dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:text="" />
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="@color/cardview_dark_background" />
+
+        <TextView
+            android:id="@+id/t9"
+            android:layout_width="45dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:text="" />
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="@color/cardview_dark_background" />
+
+        <TextView
+            android:id="@+id/t12"
+            android:layout_width="45dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:text="" />
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="@color/cardview_dark_background" />
+
+        <TextView
+            android:id="@+id/t15"
+            android:layout_width="45dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:text="" />
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="@color/cardview_dark_background" />
+
+        <TextView
+            android:id="@+id/t18"
+            android:layout_width="45dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:text="" />
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="@color/cardview_dark_background" />
+
+        <TextView
+            android:id="@+id/t21"
+            android:layout_width="45dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:text="" />
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="@color/cardview_dark_background" />
+
+    </LinearLayout>
+    <View
+        android:layout_width="370dp"
+        android:layout_height="1dp"
+        android:background="@color/cardview_dark_background"/>
+
+</LinearLayout>

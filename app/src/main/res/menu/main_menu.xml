@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home"
+            android:icon="@drawable/home"/>
+
+        <item
+            android:id="@+id/nav_salary"
+            android:title="Salary"
+            android:icon="@drawable/salary"/>
+
+        <item
+            android:id="@+id/nav_friends"
+            android:title="Workers"
+            android:icon="@drawable/friends"/>
+
+        <item
+            android:id="@+id/nav_blockade"
+            android:title="Blockade"
+            android:icon="@drawable/block"/>
+
+        <item
+            android:id="@+id/nav_shift_board"
+            android:title="Shift_board"
+            android:icon="@drawable/blockades"/>
+
+    </group>
+
+
+        <item
+            android:title="Profile">
+
+            <menu>
+
+                <group android:checkableBehavior="single">
+
+
+                <item
+                    android:id="@+id/nav_profile"
+                    android:title="Profile"
+                    android:icon="@drawable/profile_icon"/>
+
+                <item
+                    android:id="@+id/nav_logout"
+                    android:title="Logout"
+                    android:icon="@drawable/logout"/>
+
+                </group>
+
+            </menu>
+        </item>
+
+
+
+</menu>

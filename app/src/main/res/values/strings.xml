@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">BestGM</string>
+    <string name="navigation_drawer_open">"Open navigation drawer</string>
+    <string name="navigation_drawer_close">"Close navigation drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="Shifts">
+        <item>Morning</item>
+        <item>Afternoon</item>
+        <item>Evening</item>
+    </string-array>
+
+    <string-array name="Roles">
+        <item>Manager</item>
+        <item>Employee</item>
+        <item>Waiter</item>
+        <item>Technician</item>
+        <item>Other</item>
+    </string-array>
+
+
+</resources>
