@@ -4,6 +4,8 @@ Two user types: Manager / Other employee.
 Manager can set shifts for other employees, see their blocking and update his shifts/salary too.
 Employee can see his shifts, enter when he can't work and update shift salary.
 
+using with Firebase.
+
 ###### Login to System: 
 ![1](https://user-images.githubusercontent.com/56959832/78148450-8caa0080-743d-11ea-91f3-6a8bed4e8416.JPG)
 
